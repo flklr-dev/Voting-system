@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can keep your custom styles below if needed */
+.react-select-container {
+    width: 100%;
+  }
+  
+  .react-select__control {
+    border-radius: 0.5rem !important;
+    border-color: #D1D5DB !important;
+  }
+  
+  .react-select__control:hover {
+    border-color: #9CA3AF !important;
+  }
+  
+  .react-select__control--is-focused {
+    box-shadow: 0 0 0 2px #3B82F6 !important;
+    border-color: #3B82F6 !important;
+  }
